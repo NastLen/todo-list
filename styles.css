@@ -155,3 +155,14 @@ select {
     background: white;
     color: rgb(255, 200, 0);
 }
+
+/* Media query for devices with a max width of 600px (e.g., iPhone) */
+@media (max-width: 600px) {
+    header {
+        font-size: 1.2rem;
+    }
+
+    .todo-input, .todo-button {
+        font-size: 0.9em;
+    }
+}
